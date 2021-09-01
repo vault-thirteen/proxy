@@ -1,12 +1,13 @@
 package main
 
 import (
-	"github.com/rs/zerolog"
-	"github.com/rs/zerolog/log"
 	"io"
 	"net"
 	"net/http"
 	"time"
+
+	"github.com/rs/zerolog"
+	"github.com/rs/zerolog/log"
 )
 
 func main() {
